@@ -1,0 +1,125 @@
+#cc--main {
+  --cc-bg: var(--healform-colors-white);
+  --cc-text: var(--healform-colors-black);
+  --cc-btn-primary-bg: var(--healform-colors-blue-500);
+  --cc-btn-primary-hover-bg: var(--healform-colors-blue-600);
+  --cc-btn-secondary-bg: var(--healform-colors-gray-100);
+  --cc-btn-secondary-hover-bg: var(--healform-colors-gray-200);
+  --cc-toggle-bg-on: var(--healform-colors-blue-500);
+}
+
+#gradient-canvas {
+  width:100%;
+  height:100%;
+  --gradient-color-1: var(--healform-colors-red-200);
+  --gradient-color-2: var(--healform-colors-seagrass-500);
+  --gradient-color-3: var(--healform-colors-violet-500);
+  --gradient-color-4: var(--healform-colors-blue-500);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--healform-colors-blue-500);
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--healform-colors-blue-500);
+}
+::-webkit-scrollbar-thumb:active {
+  background: var(--healform-colors-blue-500);
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+#cm {
+  border-radius: var(--healform-radii-lg);
+  box-shadow: var(--healform-shadows-2xl);
+}
+
+#cm.cloud {
+  max-width: 55em;
+  margin: 0 auto;
+  text-align: center;
+  left: 1em;
+  right: 1em;
+  overflow: hidden;
+  padding: 2em 3em;
+  width: unset;
+}
+
+#s-inr {
+  border-radius: var(--healform-radii-lg);
+}
+
+.cc_div .c-bn {
+  border-radius: var(--healform-radii-xl);
+  font-family: var(--healform-fonts-heading);
+}
+
+div#c-ttl {
+  font-family: var(--healform-fonts-heading);
+}
+
+.mapboxgl-ctrl-group {
+  border-radius: 5px!important;
+  background: rgba(255, 255, 255, 0.85)!important;
+  backdrop-filter: blur(20px)!important;
+}
+
+.mapboxgl-ctrl-group:not(:empty) {
+  box-shadow: none!important;
+}
+
+.swiper {
+  overflow: visible!important;
+}
+
+#nprogress .spinner {
+  display: none!important;
+}
+
+#nprogress .bar {
+   background: lime!important;
+ }
+
+
+#nprogress .peg {
+  box-shadow: none!important;
+}
