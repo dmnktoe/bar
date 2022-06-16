@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ArchiveView } from '@views'
 import React from 'react'
 

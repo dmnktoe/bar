@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, Link, HStack, Container } from '@chakra-ui/react'
 import { Logo } from '@components/Logo'
 import NextLink from 'next/link'

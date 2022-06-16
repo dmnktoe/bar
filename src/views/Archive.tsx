@@ -1,6 +1,5 @@
-import { Box, Container, SimpleGrid, Image, Heading, AspectRatio, Text, Wrap, WrapItem, Stack } from '@chakra-ui/react'
-import axios from 'axios'
-import type { GetServerSideProps } from 'next'
+// @ts-nocheck
+import { Container, SimpleGrid, Image, Heading, AspectRatio, Text, Wrap, WrapItem, Stack } from '@chakra-ui/react'
 import React from 'react'
 
 export function ArchiveView({ recordings }) {

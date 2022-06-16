@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Heading, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import * as React from 'react'
