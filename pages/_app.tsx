@@ -6,8 +6,8 @@ import '@styles/global.css'
 import '@styles/normalize.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import NextNProgress from 'nextjs-progressbar'
 import Router from 'next/router'
+import NextNProgress from 'nextjs-progressbar'
 import React, { FC, useEffect } from 'react'
 
 Router.events.on('routeChangeStart', () => {
