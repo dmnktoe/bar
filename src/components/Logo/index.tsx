@@ -7,7 +7,7 @@ export const Logo = () => {
   return (
     <Heading
       as={Link}
-      size="3xl"
+      fontSize={{ base: 'xl', md: '4xl', lg: '5xl', xl: '6xl' }}
       m={0}
       fontWeight={500}
       letterSpacing="-0.05em"
@@ -17,7 +17,7 @@ export const Logo = () => {
     >
       <NextLink href="/" passHref>
         <Link transitionDuration={0} _hover={{ color: 'pink', textDecoration: 'underline' }}>
-          Brandtradio
+          SCHEMA RADIO
         </Link>
       </NextLink>
     </Heading>

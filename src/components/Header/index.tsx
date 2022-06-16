@@ -19,7 +19,7 @@ export const HeaderComponent: React.FC = () => {
         fontSize="2xl"
       >
         <Container maxW="6xl" mx="auto" px={{ base: '6', md: '8' }}>
-          <HStack direction="row" justify="space-between" align="center">
+          <HStack direction="row" justify="space-between" align="center" fontSize={{ base: 'md', md: 'xl', lg: '2xl', xl:  '3xl' }}>
             <NextLink href="/" passHref>
               <Link color="black" transitionDuration={0} _hover={{ color: 'pink', textDecoration: 'underline' }}>
                 Home
