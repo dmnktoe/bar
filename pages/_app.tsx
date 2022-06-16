@@ -7,7 +7,15 @@ import '@styles/normalize.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import NextNProgress from 'nextjs-progressbar'
+import Router from 'next/router'
 import React, { FC, useEffect } from 'react'
+
+Router.events.on('routeChangeStart', () => {
+  document.body.classList.add('loading')
+})
+Router.events.on('routeChangeComplete', () => {
+  document.body.classList.remove('loading')
+})
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {

@@ -17,7 +17,7 @@ export function ArchiveView({ recordings }) {
                   <Wrap>
                     {recording.genres?.map((genre, idx) => (
                       <>
-                        <WrapItem key={idx} bg="lime" color="black" px={2} fontSize="10" borderRadius="xl">
+                        <WrapItem key={idx} bg="pink" color="black" px={2} fontSize="10" borderRadius="xl">
                           <Text>{genre.title}</Text>
                         </WrapItem>
                       </>

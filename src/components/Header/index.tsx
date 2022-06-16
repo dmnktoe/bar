@@ -21,22 +21,22 @@ export const HeaderComponent: React.FC = () => {
         <Container maxW="6xl" mx="auto" px={{ base: '6', md: '8' }}>
           <HStack direction="row" justify="space-between" align="center">
             <NextLink href="/" passHref>
-              <Link transitionDuration={0} _hover={{ color: 'lime', textDecoration: 'underline' }}>
+              <Link color="black" transitionDuration={0} _hover={{ color: 'pink', textDecoration: 'underline' }}>
                 Home
               </Link>
             </NextLink>
             <NextLink href="/archive" passHref>
-              <Link transitionDuration={0} _hover={{ color: 'lime', textDecoration: 'underline' }}>
+              <Link transitionDuration={0} _hover={{ color: 'pink', textDecoration: 'underline' }}>
                 Archive
               </Link>
             </NextLink>
             <Logo />
             <NextLink href="/drinks" passHref>
-              <Link transitionDuration={0} _hover={{ color: 'lime', textDecoration: 'underline' }}>
+              <Link transitionDuration={0} _hover={{ color: 'pink', textDecoration: 'underline' }}>
                 Drinks
               </Link>
             </NextLink>
-            <Link transitionDuration={0} _hover={{ color: 'lime', textDecoration: 'underline' }}>
+            <Link transitionDuration={0} _hover={{ color: 'pink', textDecoration: 'underline' }}>
               Find Us
             </Link>
           </HStack>

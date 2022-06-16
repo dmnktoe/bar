@@ -36,7 +36,7 @@ export const TickerComponent: React.FC = () => {
                   bg={'transparent'}
                   borderRadius="full"
                   borderWidth={4}
-                  borderColor="lime"
+                  borderColor="pink"
                 >
                   <Text fontSize="4xl" letterSpacing="-0.033em">
                     <Box as="span" fontFamily="Serifbabe" fontWeight={700} fontStyle="italic">

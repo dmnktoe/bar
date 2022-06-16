@@ -64,6 +64,10 @@ body {
   padding: 0;
 }
 
+body.loading {
+  cursor: wait!important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -116,7 +120,7 @@ div#c-ttl {
 }
 
 #nprogress .bar {
-   background: lime!important;
+   background: pink!important;
  }
 
 
